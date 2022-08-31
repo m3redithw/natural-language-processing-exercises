@@ -79,7 +79,10 @@ Note that when we include capture groups in our regular expressions, `findall` w
 
 - `re.VERBOSE`: Ignore any whitespace in the regular expression. This can be useful to make more readable regular expressions, especially when combined with non-capturing comment groups.
 
+## Resources
+[regext.com](https://regexr.com/)
 
+[RegexOne](https://regexone.com/)
 
 
 # *️⃣ Exercises
