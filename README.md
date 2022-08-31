@@ -84,5 +84,5 @@ Note that when we include capture groups in our regular expressions, `findall` w
 
 [RegexOne](https://regexone.com/)
 
-
+[Python Documentation](https://docs.python.org/3/library/re.html)
 # *️⃣ Exercises
