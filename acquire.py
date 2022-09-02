@@ -72,3 +72,28 @@ def scrape_one_page(topic):
         summary_list.append(temp_dict)
         
     return summary_list    
+
+#Define a function that will scrape information about an array of topics
+def get_news_articles():
+    
+    file = 'news_articles.json'
+    
+    if os.path.exists(file):
+        
+        with open(file) as f:
+            
+            return json.load(f)
+    
+    topic_list = ['business', 'sports', 'technology', 'entertainment']
+    
+    final_list = []
+    
+    for topic in topic_list:
+        
+        final_list.extend(scrape_one_page(topic))
+        
+    with open(file, 'w') as f:
+        
+        json.dump(final_list, f)
+        
+    return final_list    
