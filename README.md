@@ -34,6 +34,8 @@ Regexes are most commonly used in one of two ways:
 - To find/extract text that matches a pattern.
 - To replace/substitute text that matches a pattern.
 
+[Regular Expressions Class Demo](regex_intro.ipynb)
+
 ## Metacharacters and Character Classes
 metacharacter |	matches
 | :---: | :---: |
@@ -85,4 +87,26 @@ Note that when we include capture groups in our regular expressions, `findall` w
 [RegexOne](https://regexone.com/)
 
 [Python Documentation](https://docs.python.org/3/library/re.html)
+
+***
+
 # *️⃣ Exercises
+
+## Regular Expression
+[Regex Exercises](regex_exercises.ipynb)
+
+## Data Acquisiton
+[Acqusition](acquire.ipynb)
+
+[Acquire Functions](acquire.py)
+
+## Data Preparation
+[Preparation](preparation.ipynb)
+
+[Prepare Functions](prepare.py)
+
+## Data Exploration
+[Exploration](explore.ipynb)
+
+## Modeling
+[Modeling](model.ipynb)
